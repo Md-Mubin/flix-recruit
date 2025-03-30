@@ -8,3 +8,14 @@
   width: 1339px;
   margin: 0 auto;
 }
+
+@keyframes swipe {
+  0% {
+      left: -30%;
+  }
+  100% {
+      left: 140%;
+      opacity: 0;
+  }
+}
+

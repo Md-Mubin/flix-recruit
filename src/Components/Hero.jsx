@@ -14,6 +14,16 @@ const Hero = () => {
                             <li className='my-9 w-[500px]'>
                                 <p className='font-normal text-[22px] text-[#000] leading-[32px]'>Join hundreds of companies finding the right talents. FlixRecruit connects You with professionals quickly and efficiently</p>
                             </li>
+                            
+                            <li className='flex items-center gap-[26px]'>
+                                <a href="#">
+                                    <button className='py-[17px] px-[37px] font-normal text-[#000] text-lg ring-2 ring-[#0647AC] rounded-[20px] hover:ring-0 hover:bg-[#0647AC] hover:text-[#fff] duration-200 cursor-pointer hover:rounded-[30px]'>Get Started</button>
+                                </a>
+
+                                <a href="#">
+                                    <button className='py-[17px] px-[37px] font-normal text-[#000] text-lg ring-2 ring-[#0647AC] rounded-[20px] hover:ring-0 hover:bg-[#0647AC] hover:text-[#fff] duration-200 cursor-pointer hover:rounded-[30px]'>Learn More</button>
+                                </a>
+                            </li>
                         </ul>
 
                         <div >
