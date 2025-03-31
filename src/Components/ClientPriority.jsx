@@ -10,7 +10,7 @@ const ClientPriority = () => {
     return (
         <>
             <section className='pb-[156px]'>
-                <div className='maskImage'>
+                <div className='lg:maskImage'>
                     <ul className='text-center'>
                         <li>
                             <h2 className='font-bold text-[56px] leading-[72px] text-[#000]'>Our Clients' Satisfaction is Our Top Priority</h2>
@@ -21,7 +21,7 @@ const ClientPriority = () => {
                     </ul>
 
                     <div className='mt-10'>
-                        <Swiper slidesPerView={3} grabCursor={true} spaceBetween={30} centeredSlides={true} pagination={{dynamicBullets : true}} loop={true} modules={[Pagination]} style={{height:"480px", paddingTop:"30px"}}>
+                        <Swiper slidesPerView={3} grabCursor={true} spaceBetween={30} centeredSlides={true} pagination={{dynamicBullets : true}} loop={true} modules={[Pagination]} className='swiper'>
                             <SwiperSlide>
                                 <CommonReviewCards commonReviewHead={"Partnership with FlixRecruit"} commonReviewInfo={"I've been particularly impressed with the platform's ability to match me with freelancers who have the specific skills and experience we need. The quality of talent is exceptional"} />
                             </SwiperSlide>

@@ -10,7 +10,7 @@ const CommonLeverageCard = ({ CommonLeverageCardImage, CommonLeverageCardName, C
                     </div>
                     <h4 className='font-bold text-2xl text-[#000] leading-[24px]'>{CommonLeverageCardName}</h4>
                 </li>
-                <li className='w-[362px]'>
+                <li className='lg:w-[362px]'>
                     <p className='font-normal text-xl text-[#555555] leading-[32px]'>{CommonLeverageCardInfo}</p>
                 </li>
             </ul>

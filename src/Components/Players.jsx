@@ -14,7 +14,7 @@ const Players = () => {
       <section className='pt-[85px] pb-[140px]'>
         <div className="container">
           <ul>
-            <li className='w-[1004px] m-auto text-center'>
+            <li className='lg:w-[1004px] m-auto text-center'>
               <h2 className='font-bold text-[56px] leading-[72px] text-[#000]'>Leverage A Players</h2>
               <p className='pt-[30px] font-normal text-[22px] text-[#555555] leading-[35px]'>Our global network of Freelance recruiters connects you with high-performer employers to drive your company's success across various industries:</p>
             </li>

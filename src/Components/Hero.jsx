@@ -12,13 +12,13 @@ const Hero = () => {
         <>
             <section className='pt-[207px] pb-[90px] bg-[#d2e8fd]'>
                 <div className='container'>
-                    <div className=' flex items-center justify-between pl-[49px]'>
-                        <ul data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200" className='w-[651px]'>
+                    <div className=' flex flex-col lg:flex-row lg:items-center justify-between gap-10 lg:gap-0 lg:pl-[49px]'>
+                        <ul data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200" className='lg:w-[651px]'>
                             <li>
-                                <h1 className='font-bold text-[68px] text-[#0647AC] leading-[76px]'><span className='text-[#000]'>Talent On Demand</span> Hire The Best Without The Hassle</h1>
+                                <h1 className='font-bold text-4xl lg:text-[68px] text-[#0647AC] leading-[76px]'><span className='text-[#000]'>Talent On Demand</span> <br /> Hire The Best Without The Hassle</h1>
                             </li>
 
-                            <li className='my-9 w-[500px]'>
+                            <li className='my-9 lg:w-[500px]'>
                                 <p className='font-normal text-[22px] text-[#000] leading-[32px]'>Join hundreds of companies finding the right talents. FlixRecruit connects You with professionals quickly and efficiently</p>
                             </li>
                             
@@ -34,7 +34,7 @@ const Hero = () => {
                         </ul>
 
                         <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
-                            <img src="/images/hero_img.png" alt="hero image" loading='lazy' />
+                            <img src="/images/hero_img.png" alt="hero image" loading='lazy'/>
                         </div>
                     </div>
                 </div>

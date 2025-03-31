@@ -27,11 +27,11 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className='flex justify-center w-full fixed top-[49px] z-[100]'>
+            <nav className='justify-center w-full fixed top-[49px] z-[100] hidden lg:flex'>
                 <div className={`flex items-center justify-between w-[1339px] rounded-2xl duration-200 ${scrolling && "bg-[#0646ac4d] backdrop-blur-lg"}`}>
                     <img loading='lazy' src="/images/logo.png" alt="nav logo" />
 
-                    <ul className='flex items-center gap-[116px] ml-[53px] mr-[119px] font-medium text-[22px] text-[#000]'>
+                    <ul className='flex items-center lg:gap-[116px] font-medium text-[22px] text-[#000]'>
                         <li className='hover:text-[#fff] relative after:content-[""] after:absolute after:w-0 after:h-[2px] after:bg-[#fff] after:left-0 after:bottom-0 hover:after:w-full after:duration-200'>
                             <a href="#">Home</a>
                         </li>
@@ -47,7 +47,7 @@ const Navbar = () => {
 
 
                     <div className='flex items-center relative'>
-                        <button className='relative py-[17px] px-[32px] bg-[#0647AC] rounded-[12px] cursor-pointer font-normal text-lg text-[#fff] after:content-[""] after:w-[10px] after:h-[140px] after:bg-[#fff] after:absolute after:rotate-[-45deg] after:blur after:top-[-50%] after:left-[-30%] hover:after:animate-[swipe_0.3s_linear] overflow-hidden'>
+                        <button className='relative py-3 px-4 xl:py-[17px] xl:px-[32px] bg-[#0647AC] rounded-[12px] cursor-pointer font-normal lg:text-lg text-[#fff] after:content-[""] after:w-[10px] after:h-[140px] after:bg-[#fff] after:absolute after:rotate-[-45deg] after:blur after:top-[-50%] after:left-[-30%] hover:after:animate-[swipe_0.3s_linear] overflow-hidden'>
                             Book A Call
                         </button>
 

@@ -6,7 +6,7 @@ const Counter = () => {
         <>
             <section className='py-10 bg-[#f3f4f8]'>
                 <div className="container">
-                    <ul className='text-center flex items-center justify-between'>
+                    <ul className='text-center flex flex-wrap lg:flex-nowrap justify-center items-center lg:justify-between gap-10 lg:gap-0'>
                         <li className='font-bold text-[56px] text-[#000] flex flex-col'>
                             <SlotCounter value={[
                                 <span>1</span>,

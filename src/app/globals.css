@@ -5,8 +5,19 @@
 }
 
 @utility container {
-  width: 1339px;
+
+  width: 100%;
+  padding-inline:10px;
   margin: 0 auto;
+
+  @variant lg{
+    padding-inline:20px;
+  }
+
+  @variant 2xl {
+    width: 1339px;
+    padding-inline:0px;
+  }
 }
 
 @keyframes swipe {
@@ -33,4 +44,11 @@
   margin-inline:auto;
   overflow: hidden;
   mask-image: radial-gradient(circle, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 80%);
+}
+
+.swiper{
+  height: 480px;
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
 }

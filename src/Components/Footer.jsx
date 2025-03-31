@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <footer className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-10 px-5 md:px-20">
             <div className="container">
-                <div className="flex justify-between">
+                <div className="flex flex-col lg:flex-row gap-10 lg:gap-0 lg:justify-between">
                     <ul>
                         <li>
                             <h2 className="text-4xl font-bold">Flix
@@ -50,7 +50,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="mt-8 border-t border-gray-400 pt-5 flex items-center justify-around">
+                <div className="mt-8 border-t border-gray-400 pt-5 flex flex-col lg:flex-row items-center justify-around">
                     <p>© {new Date().getFullYear()} FlixRecruit. All Rights Reserved.</p>
                     <p className="mt-2">
                         <a href="#" className="hover:underline">Terms & Conditions</a> /
