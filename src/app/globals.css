@@ -19,3 +19,18 @@
   }
 }
 
+::-webkit-scrollbar{
+  width: 5px;
+  border-radius: 100%;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #0647AC;
+}
+
+.maskImage{
+  position: relative;
+  margin-inline:auto;
+  overflow: hidden;
+  mask-image: radial-gradient(circle, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 80%);
+}

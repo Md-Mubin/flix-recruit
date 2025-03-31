@@ -27,7 +27,7 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className='flex justify-center w-full fixed top-[49px]'>
+            <nav className='flex justify-center w-full fixed top-[49px] z-[100]'>
                 <div className={`flex items-center justify-between w-[1339px] rounded-2xl duration-200 ${scrolling && "bg-[#0646ac4d] backdrop-blur-lg"}`}>
                     <img loading='lazy' src="/images/logo.png" alt="nav logo" />
 

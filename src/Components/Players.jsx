@@ -1,17 +1,13 @@
 "use client"
 import CommonLeverageCard from '@/Commons/CommonLeverageCard'
-import React from 'react'
-
-import AOS from "aos";
+import React, { useEffect } from 'react'
 import "aos/dist/aos.css";
+
 const Players = () => {
 
-  if (typeof window !== "undefined") {
-    AOS.init({ // Animation duration
-      offset: 200,   // Trigger point
-      once: true,    // Animate only once
-    });
-  }
+  useEffect(()=>{
+    import("aos").then((AOS) => AOS.init({once : true, offset : 200}));
+  },[])
 
   return (
     <>

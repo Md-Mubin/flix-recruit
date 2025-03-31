@@ -1,12 +1,19 @@
-import React from 'react'
+"use client"
+import React, { useEffect } from 'react'
+import "aos/dist/aos.css";
 
 const Hero = () => {
+
+    useEffect(()=>{
+        import("aos").then((AOS) => AOS.init({once : true, offset : 200}));
+      },[])
+
     return (
         <>
             <section className='pt-[207px] pb-[90px] bg-[#d2e8fd]'>
                 <div className='container'>
                     <div className=' flex items-center justify-between pl-[49px]'>
-                        <ul className='w-[651px]'>
+                        <ul data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200" className='w-[651px]'>
                             <li>
                                 <h1 className='font-bold text-[68px] text-[#0647AC] leading-[76px]'><span className='text-[#000]'>Talent On Demand</span> Hire The Best Without The Hassle</h1>
                             </li>
@@ -26,7 +33,7 @@ const Hero = () => {
                             </li>
                         </ul>
 
-                        <div >
+                        <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
                             <img src="/images/hero_img.png" alt="hero image" loading='lazy' />
                         </div>
                     </div>
