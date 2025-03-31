@@ -1,8 +1,9 @@
 import Navbar from "@/Components/Navbar";
 import "./globals.css";
 import { Lato } from "next/font/google";
+import Footer from "@/Components/Footer";
 
-export const brandFont = Lato({ weight: ["400", "700"] , preload:false})
+export const brandFont = Lato({ weight: ["400", "700"], preload: false })
 
 export const metadata = {
   title: "Flix Recruit",
@@ -13,8 +14,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={brandFont.className}>
-          <Navbar />
+        <Navbar />
         {children}
+        <Footer/>
       </body>
     </html>
   );
