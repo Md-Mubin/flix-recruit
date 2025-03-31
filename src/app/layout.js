@@ -2,7 +2,7 @@ import Navbar from "@/Components/Navbar";
 import "./globals.css";
 import { Lato } from "next/font/google";
 
-export const brandFont = Lato({ weight: ["400", "700"] })
+export const brandFont = Lato({ weight: ["400", "700"] , preload:false})
 
 export const metadata = {
   title: "Flix Recruit",
