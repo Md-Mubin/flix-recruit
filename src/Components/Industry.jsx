@@ -30,7 +30,7 @@ const Industry = () => {
                                     </li>
                                     <li>
                                         <h3 className="text-lg font-semibold text-gray-800 group-hover:text-[#fff] duration-200">{category.title}</h3>
-                                        <p className="text-gray-500 text-sm group-hover:text-[#fff] duration-200">{category.positions} open positions</p>
+                                        <p className="text-gray-500 text-sm group-hover:text-[#fff] duration-200 text-start">{category.positions} open positions</p>
                                     </li>
                                 </ul>
                                 
