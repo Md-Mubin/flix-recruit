@@ -1,5 +1,6 @@
+import Link from "next/link";
 import React from "react";
-import { FaLinkedin, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
+import { FaLinkedin, FaEnvelope, FaMapMarkerAlt, FaFacebook, FaInstagram, FaYoutube, FaPhone } from "react-icons/fa";
 
 const Footer = () => {
     return (
@@ -14,11 +15,90 @@ const Footer = () => {
                         </li>
 
                         <li>
-                            <p className="mt-4 flex gap-4 items-center text-lg">Follow us on:
+                            <p className="w-[350px] mt-4">
+                                Getting an accurate diagnosis can be one of the most impactful experiences that you can have.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p className="mt-4 flex gap-4 items-center text-lg">
+
+                                <a href="#" className="hover:text-white text-gray-300 duration-200">
+                                    <FaFacebook size={32} />
+                                </a>
+
+                                <a href="#" className="hover:text-white text-gray-300 duration-200">
+                                    <FaInstagram size={32} />
+                                </a>
+
+                                <a href="#" className="hover:text-white text-gray-300 duration-200">
+                                    <FaYoutube size={32} />
+                                </a>
+
                                 <a href="#" className="hover:text-white text-gray-300 duration-200">
                                     <FaLinkedin size={32} />
                                 </a>
                             </p>
+                        </li>
+                    </ul>
+
+                    <ul className="flex flex-col gap-2">
+                        <li>
+                            <h3 className="text-2xl font-semibold mb-3">Quick Links</h3>
+                        </li>
+
+                        <li>
+                            <Link href="#" className="hover:text-white text-gray-300 duration-200 font-normal text-lg tracking-wider">
+                                Home
+                            </Link>
+                        </li>
+
+                        <li>
+                            <Link href="#" className="hover:text-white text-gray-300 duration-200 font-normal text-lg tracking-wider">
+                                Jobs
+                            </Link>
+                        </li>
+
+                        <li>
+                            <Link href="#" className="hover:text-white text-gray-300 duration-200 font-normal text-lg tracking-wider">
+                                FAQ
+                            </Link>
+                        </li>
+
+                        <li>
+                            <Link href="#" className="hover:text-white text-gray-300 duration-200 font-normal text-lg tracking-wider">
+                                Contacts
+                            </Link>
+                        </li>
+                    </ul>
+
+                    <ul className="flex flex-col gap-2">
+                        <li>
+                            <h3 className="text-2xl font-semibold mb-3">Other Pages</h3>
+                        </li>
+
+                        <li>
+                            <Link href="#" className="hover:text-white text-gray-300 duration-200 font-normal text-lg tracking-wider">
+                                Job Vacancy
+                            </Link>
+                        </li>
+
+                        <li>
+                            <Link href="#" className="hover:text-white text-gray-300 duration-200 font-normal text-lg tracking-wider">
+                                Charity Program
+                            </Link>
+                        </li>
+
+                        <li>
+                            <Link href="#" className="hover:text-white text-gray-300 duration-200 font-normal text-lg tracking-wider">
+                                Privacy & Policy
+                            </Link>
+                        </li>
+
+                        <li>
+                            <Link href="#" className="hover:text-white text-gray-300 duration-200 font-normal text-lg tracking-wider">
+                                Terms of Use
+                            </Link>
                         </li>
                     </ul>
 
@@ -35,19 +115,16 @@ const Footer = () => {
 
                         <li>
                             <p className="flex items-center gap-2 mt-2">
-                                <FaMapMarkerAlt /> A108 Adam Street, New York, NY 535022 
+                                <FaPhone className="rotate-x-[-1]" /> + 03248912323424
+                            </p>
+                        </li>
+
+                        <li>
+                            <p className="flex items-center gap-2 mt-2">
+                                <FaMapMarkerAlt /> A108 Adam Street, New York, NY 535022
                             </p>
                         </li>
                     </ul>
-
-                    <div>
-                        <h3 className="text-2xl font-semibold mb-3">Newsletter</h3>
-                        <p>Sign up for our newsletter and get exclusive updates!</p>
-                        <div className="mt-3 flex">
-                            <input type="email" placeholder="Enter Your Email" className="p-2 outline-0 border-b" />
-                            <button className="bg-white text-blue-700 px-4 rounded-r-md hover:bg-gray-200 cursor-pointer">Subscribe</button>
-                        </div>
-                    </div>
                 </div>
 
                 <div className="mt-8 border-t border-gray-400 pt-5 flex flex-col lg:flex-row items-center justify-around">
