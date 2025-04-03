@@ -9,7 +9,7 @@ import 'swiper/css/pagination';
 const ClientPriority = () => {
     return (
         <>
-            <section className='pb-[156px]'>
+            <section className='py-[156px]'>
                 <div className='lg:maskImage'>
                     <ul className='text-center'>
                         <li>
