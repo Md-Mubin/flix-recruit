@@ -3,7 +3,7 @@ import React from 'react'
 const CommonLeverageCard = ({ CommonLeverageCardImage, CommonLeverageCardName, CommonLeverageCardInfo }) => {
     return (
         <>
-            <ul className='pr-[20px] pl-[28px] py-[36px] shadow-[2px_2px_5px_#afc2e1] rounded-2xl relative mt-[30px] hover:translate-y-[-5px] hover:shadow-[inset_-2px_-2px_15px_#afc2e1,2px_2px_5px_#afc2e1] duration-300'>
+            <ul className='pr-[20px] pl-[28px] py-[36px] lg:h-[300px] shadow-[2px_2px_5px_#afc2e1] rounded-2xl relative mt-[30px] hover:translate-y-[-5px] hover:shadow-[inset_-2px_-2px_15px_#afc2e1,2px_2px_5px_#afc2e1] duration-300'>
                 <li className='mb-5 flex items-center gap-6'>
                     <div className='w-[60px] h-[60px] flex justify-center items-center bg-[#0646accc] rounded-xl'>
                         <img loading='lazy' src={CommonLeverageCardImage} alt="card image" className='w-[25px]'/>

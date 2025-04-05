@@ -9,19 +9,19 @@ const Footer = () => {
                 <div className="flex flex-col lg:flex-row gap-10 lg:gap-0 lg:justify-between">
                     <ul>
                         <li>
-                            <h2 className="text-4xl font-bold">Flix
+                            <h2 className="text-4xl font-bold tracking-widest">Flix
                                 <span className="text-black">Recruit</span>
                             </h2>
                         </li>
 
                         <li>
-                            <p className="w-[350px] mt-4">
+                            <p className="w-[350px] mt-4 tracking-widest">
                                 Getting an accurate diagnosis can be one of the most impactful experiences that you can have.
                             </p>
                         </li>
 
                         <li>
-                            <p className="mt-4 flex gap-4 items-center text-lg">
+                            <p className="mt-4 flex gap-10 items-center text-lg">
 
                                 <a href="#" className="hover:text-white text-gray-300 duration-200">
                                     <FaFacebook size={32} />
@@ -44,29 +44,29 @@ const Footer = () => {
 
                     <ul className="flex flex-col gap-2">
                         <li>
-                            <h3 className="text-2xl font-semibold mb-3">Quick Links</h3>
+                            <h3 className="text-2xl font-semibold mb-3 tracking-widest">Quick Links</h3>
                         </li>
 
                         <li>
-                            <Link href="#" className="hover:text-white text-gray-300 duration-200 font-normal text-lg tracking-wider">
+                            <Link href="#" className="hover:text-white text-gray-300 duration-200 font-normal text-lg tracking-widest">
                                 Home
                             </Link>
                         </li>
 
                         <li>
-                            <Link href="#" className="hover:text-white text-gray-300 duration-200 font-normal text-lg tracking-wider">
+                            <Link href="#" className="hover:text-white text-gray-300 duration-200 font-normal text-lg tracking-widest">
                                 Jobs
                             </Link>
                         </li>
 
                         <li>
-                            <Link href="#" className="hover:text-white text-gray-300 duration-200 font-normal text-lg tracking-wider">
+                            <Link href="#" className="hover:text-white text-gray-300 duration-200 font-normal text-lg tracking-widest">
                                 FAQ
                             </Link>
                         </li>
 
                         <li>
-                            <Link href="#" className="hover:text-white text-gray-300 duration-200 font-normal text-lg tracking-wider">
+                            <Link href="#" className="hover:text-white text-gray-300 duration-200 font-normal text-lg tracking-widest">
                                 Contacts
                             </Link>
                         </li>
@@ -74,29 +74,29 @@ const Footer = () => {
 
                     <ul className="flex flex-col gap-2">
                         <li>
-                            <h3 className="text-2xl font-semibold mb-3">Other Pages</h3>
+                            <h3 className="text-2xl font-semibold mb-3 tracking-widest">Other Pages</h3>
                         </li>
 
                         <li>
-                            <Link href="#" className="hover:text-white text-gray-300 duration-200 font-normal text-lg tracking-wider">
+                            <Link href="#" className="hover:text-white text-gray-300 duration-200 font-normal text-lg tracking-widest">
                                 Job Vacancy
                             </Link>
                         </li>
 
                         <li>
-                            <Link href="#" className="hover:text-white text-gray-300 duration-200 font-normal text-lg tracking-wider">
+                            <Link href="#" className="hover:text-white text-gray-300 duration-200 font-normal text-lg tracking-widest">
                                 Charity Program
                             </Link>
                         </li>
 
                         <li>
-                            <Link href="#" className="hover:text-white text-gray-300 duration-200 font-normal text-lg tracking-wider">
+                            <Link href="#" className="hover:text-white text-gray-300 duration-200 font-normal text-lg tracking-widest">
                                 Privacy & Policy
                             </Link>
                         </li>
 
                         <li>
-                            <Link href="#" className="hover:text-white text-gray-300 duration-200 font-normal text-lg tracking-wider">
+                            <Link href="#" className="hover:text-white text-gray-300 duration-200 font-normal text-lg tracking-widest">
                                 Terms of Use
                             </Link>
                         </li>
@@ -104,30 +104,30 @@ const Footer = () => {
 
                     <ul>
                         <li>
-                            <h3 className="text-2xl font-semibold mb-3">Contact Us</h3>
+                            <h3 className="text-2xl font-semibold mb-3 tracking-widest">Contact Us</h3>
                         </li>
 
                         <li>
-                            <p className="flex items-center gap-2">
+                            <p className="flex items-center gap-2 tracking-widest">
                                 <FaEnvelope /> support@flixrecruit.com
                             </p>
                         </li>
 
                         <li>
-                            <p className="flex items-center gap-2 mt-2">
+                            <p className="flex items-center gap-2 mt-2 tracking-widest">
                                 <FaPhone className="rotate-x-[-1]" /> + 03248912323424
                             </p>
                         </li>
 
                         <li>
-                            <p className="flex items-center gap-2 mt-2">
+                            <p className="flex items-center gap-2 mt-2 tracking-widest">
                                 <FaMapMarkerAlt /> A108 Adam Street, New York, NY 535022
                             </p>
                         </li>
                     </ul>
                 </div>
 
-                <div className="mt-8 border-t border-gray-400 pt-5 flex flex-col lg:flex-row items-center justify-around">
+                <div className="mt-8 border-t border-gray-400 pt-5 flex flex-col lg:flex-row items-center justify-around tracking-widest">
                     <p>© {new Date().getFullYear()} FlixRecruit. All Rights Reserved.</p>
                     <p className="mt-2">
                         <a href="#" className="hover:underline">Terms & Conditions</a> /
