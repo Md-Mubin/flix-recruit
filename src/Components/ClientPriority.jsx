@@ -11,12 +11,12 @@ const ClientPriority = () => {
         <>
             <section className='py-[156px]'>
                 <div className='maskImage'>
-                    <ul className='text-center'>
+                    <ul className='text-center lg:w-[900px] m-auto'>
                         <li>
-                            <h2 className='font-bold text-[56px] leading-[72px] text-[#000]'>Our Clients' Satisfaction is Our Top Priority</h2>
+                            <h2 className='font-bold text-[56px] leading-[72px] text-[#000] tracking-widest'>Our Clients' Satisfaction is Our Top Priority</h2>
                         </li>
                         <li>
-                            <p className='pt-[30px] font-normal text-[22px] text-[#555555] leading-[35px]'>We have a reputation for helping clients around the world find success on their most important projects.</p>
+                            <p className='pt-[30px] font-medium text-[22px] text-[#555555] leading-[35px] tracking-widest'>We have a reputation for helping clients around the world find success on their most important projects.</p>
                         </li>
                     </ul>
 
