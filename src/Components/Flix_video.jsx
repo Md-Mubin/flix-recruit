@@ -9,7 +9,7 @@ const Flix_video = () => {
                 <div className="container relative z-10">
                     <ul className='w-[850px] m-auto text-center'>
                         <li>
-                            <h2 className='font-bold text-[50px] text-[#fff]'>Watch our Demo to see how FlixRecruit works:</h2>
+                            <h2 className='font-bold text-[50px] text-[#fff] tracking-widest'>Watch our Demo to see how FlixRecruit works:</h2>
                         </li>
 
                         <li className='my-6 p-2 bg-[#0647AC] w-[80px] h-[80px] rounded-full flex justify-center items-center m-auto'>
@@ -17,7 +17,7 @@ const Flix_video = () => {
                         </li>
 
                         <li>
-                            <a src="#" className='py-[17px] px-[29px] bg-[#0647AC] rounded-2xl text-[#fff] text-lg'>Watch the video</a>
+                            <a src="#" className='py-[17px] px-[29px] bg-[#0647AC] rounded-2xl text-[#fff] text-lg tracking-widest'>Watch the video</a>
                         </li>
                     </ul>
                 </div>

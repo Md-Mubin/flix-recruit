@@ -1,9 +1,9 @@
 import Navbar from "@/Components/Navbar";
 import "./globals.css";
-import { Lato } from "next/font/google";
+import { Lato, Noto_Serif } from "next/font/google";
 import Footer from "@/Components/Footer";
 
-export const brandFont = Lato({ weight: ["400", "700"], preload: false })
+export const brandFont = Noto_Serif({ weight: ["400", "700"], preload: false })
 
 export const metadata = {
   title: "Flix Recruit",
