@@ -16,7 +16,7 @@ const Players = () => {
           <ul>
             <li className='lg:w-[1004px] m-auto text-center'>
               <h2 className='font-bold text-[56px] leading-[72px] text-[#000] tracking-widest'>Leverage A Players</h2>
-              <p className='pt-[30px] font-medium text-[22px] text-[#555555] leading-[35px] tracking-widest'>Our global network of Freelance recruiters connects you with high-performer employers to drive your company's success across various industries:</p>
+              <p className='pt-[30px] font-semibold text-[22px] text-[#555555] leading-[35px] tracking-widest'>Our global network of Freelance recruiters connects you with high-performer employers to drive your company's success across various industries:</p>
             </li>
           </ul>
 

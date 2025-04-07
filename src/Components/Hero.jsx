@@ -19,7 +19,7 @@ const Hero = () => {
                             </li>
 
                             <li className='my-9 lg:w-[500px]'>
-                                <p className='font-medium text-[22px] text-[#000] leading-[32px] tracking-widest'>Join hundreds of companies finding the right talents. FlixRecruit connects You with professionals quickly and efficiently</p>
+                                <p className='font-semibold text-[22px] text-[#000] leading-[32px] tracking-widest'>Join hundreds of companies finding the right talents. FlixRecruit connects You with professionals quickly and efficiently</p>
                             </li>
                             
                             <li className='flex items-center gap-[26px]'>
